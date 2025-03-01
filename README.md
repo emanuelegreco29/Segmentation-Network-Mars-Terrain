@@ -1,21 +1,21 @@
-# Segmentation-Network-Mars-Terrain
-Description
-In this assignment, you will receive 64x128 grayscale real images from Mars terrain. Pixels in these images are categorized into five classes, each representing a particular type of terrain. This is a semantic segmentation problem, so your goal is to assign the correct class label to each mask pixel.
+# Mars Terrain Segmentation Network 🚀🛰️
 
-⚠️ Please note that for this Homework, as stated in the Rules section, all pretrained models are forbidden. Neural networks must be trained from scratch, without relying on existing trained architectures.
+This project focuses on semantic segmentation of 64x128 grayscale images of Mars terrain. Our goal is to classify every pixel into one of five terrain categories—all while training our networks entirely from scratch (no pretrained models allowed)!
 
-Evaluation
-For each team, the evaluation of this homework comprises the final leaderboard score and the report score, as in Homework 1. The combined total of these scores will range from 0 to 5.5 and will be added to your written exam score.
+## Overview
+In this project, we tackle the challenge of pixel-wise segmentation on Mars terrain images. Each image is segmented into distinct terrain types, providing valuable insights into the Martian surface. The task is challenging due to significant class imbalance and the strict requirement to build models from scratch.
 
-🥇 Leaderboard Metrics
-Your models will be evaluated according to the mean intersection over union metric, computed as
-1|C|∑c∈C1(y=c)∧1(y^=c)1(y=c)∨1(y^=c),
-given the set of classes, the ground truth, and the model predictions.
+### Project Highlights
+- **Semantic Segmentation:** Classify every pixel of Mars terrain images into five different classes.
+- **Scratch-Built Models:** All models are developed and trained from scratch—pretrained architectures are not used.
+- **Innovative Architectures:** We experimented with various UNet variants (including dual UNet structures) and even explored approaches like DeepLabV3+ with ResNet.
+- **Advanced Loss Functions:** Our experiments include the use of Sparse Categorical Crossentropy, Dice Loss, Jaccard Loss, and combined loss strategies to tackle class imbalance.
+- **Data Augmentation:** Implemented creative augmentation techniques to enhance model generalization and robustness. 🎨
 
-Please note that the background class, identified with the label 0 will be ignored in the evaluation, following the same procedure outlined in the exercise session on semantic segmentation.
+## Further Details
+This README provides a high-level overview of the project. For further details about our experimental setup, analysis, and results, consult the full [report](https://github.com/emanuelegreco29/Segmentation-Network-Mars-Terrain/blob/5a3e1a873acb988dbd1540fa0949233b68220216/Johnny%20Deep%20(Learning)%20-%20HW2%20Report.pdf). It includes comprehensive insights into every aspect of the project from data preprocessing to final model evaluation.
 
-We strongly advise to start from this notebook containing a minimal working example with the correct metric evaluation and csv construction procedure.
-
-To prevent overfitting, during the entire competition period your submissions will be evaluated on a specific subset of the test set. The final results evaluated on a separate test subset will be available on December 14, 23:59.
-
-Please remember that for this Homework, pretrained models are forbidden. All neural networks must be trained from scratch, without relying on existing trained architectures.
+## Team
+- **Andrea Giangrande**
+- **Marta Giliberto**
+- **Emanuele Greco**
