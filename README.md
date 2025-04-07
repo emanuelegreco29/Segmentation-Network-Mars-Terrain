@@ -15,6 +15,9 @@ In this project, we tackle the challenge of pixel-wise segmentation on Mars terr
 ## Further Details
 This README provides a high-level overview of the project. For further details about our experimental setup, analysis, and results, consult the full [report](https://github.com/emanuelegreco29/Segmentation-Network-Mars-Terrain/blob/5a3e1a873acb988dbd1540fa0949233b68220216/Johnny%20Deep%20(Learning)%20-%20HW2%20Report.pdf). It includes comprehensive insights into every aspect of the project from data preprocessing to final model evaluation.
 
+## Final Grade
+**5.5/5.5**
+
 ## Team
 - **Andrea Giangrande**
 - **Marta Giliberto**
